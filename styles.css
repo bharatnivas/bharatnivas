@@ -52,7 +52,7 @@ body{
 }
 .section-two-right > h1 {
     height: 100%;
-    padding: 20% 15% 0 10%;
+    padding: 20% 15% 20% 10%;
     font-size: 45px;
     color: #fff;
 }
@@ -80,7 +80,7 @@ body{
     line-height: 2;
 }
 .section-three {
-    padding: 70px 0 70px 0;
+    padding: 100px 0 100px 0;
     background-color: #fff;
 }
 .section {
@@ -99,6 +99,12 @@ body{
     width: 50px;
     float: right;
     padding: 0 10px 0 0;
+}
+.brandLogo > a {
+    text-decoration: none;
+}
+.brandLogo > a:hover{
+    color:#fff;
 }
 .font-color h1{
 	color:#fff;
