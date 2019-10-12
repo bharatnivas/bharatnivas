@@ -1,0 +1,222 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+a{
+	color:#fff;
+}
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 15px 15px 15px 0;
+    color: #000;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1440px;
+}
+.header {
+    background-color: black;
+    color: #fff;
+    padding: 38px 40px;
+}
+.section-one-left {
+    background-color: black;
+    height: 100%;
+    padding: 0 0 0 100px;
+}
+.section-two-right {
+    background-color: black;
+    height: 100%;
+    padding: 0 0 0 100px;
+}
+.section-one-left > h1 {
+    background-color: #fff;
+    height: 100%;
+    padding: 40% 15% 0 10%;
+    font-size: 45px;
+    color: black;
+}
+.section-two-right > h1 {
+    height: 100%;
+    padding: 20% 15% 20% 10%;
+    font-size: 45px;
+    color: #fff;
+}
+.section-two-left > img {
+    width: 100%;
+}
+.section-two{
+	background-color: black;
+}
+.aboutme-left {
+    padding: 50px 0 0 50px;
+}
+.aboutme-left h1{
+	font-size: 48px;
+}
+.aboutme-left h2 {
+    font-size: 22px;
+    line-height: 2;
+}
+.aboutme-right {
+    padding: 50px 0 0 50px;
+}
+.aboutme-right h2 {
+    font-size: 22px;
+    line-height: 2;
+}
+.section-three {
+    padding: 100px 0 100px 0;
+    background-color: #fff;
+}
+.section {
+    padding: 100px 100px 100px 100px;
+    background-color: black;
+}
+.socialprofile {
+    margin: 25% 50px 0 53px;
+}
+.socialprofile > h4 {
+    font-size: 21px;
+    padding: 0 0 24px 0;
+    color:#fff;
+}
+.social-icons img {
+    width: 50px;
+    float: right;
+    padding: 0 10px 0 0;
+}
+.brandLogo > a {
+    text-decoration: none;
+}
+.brandLogo > a:hover{
+    color:#fff;
+}
+.font-color h1{
+	color:#fff;
+}
+.footer-text > h1 {
+    font-size: 20px;
+    padding: 30px;
+}
+a.g-touch {
+    background-color: #fff;
+    padding: 9px 33px;
+    margin: 20px 0 0 0;
+    color: black;
+}
+.g-to {
+    margin: -18px 0 0 0;
+}
+.aboutme-right > h1 {
+    font-size: 22px;
+    padding: 20px 0 0 50px;
+}
+.aboutme-right > img {
+    padding: 6px 0 0 37px;
+}
+.aboutme-right h4 {
+    padding: 13px 0 0 50px;
+    font-size: 15px;
+}
+.footer {
+    background-color: #fff;
+}
+.works-one-right img{
+    width: 100%;
+    height: 100%;
+}
+.works-one-left{
+    background-color:#fff;
+    color:black;
+    width:100%;
+    height:100%;
+    padding: 120px 0 0 95px;
+}
+.works-one-left p{
+    font-size: 38px;
+}
+.works-two-left img{
+    width:100%;
+    height:100%
+}
+.works-two-left{
+    padding: 100px;
+    background-color: #fff;
+}
+.works-two-right{
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+}
+.works-two-right h1{
+   padding-bottom:20px;
+}
+.works-two-right a {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin: 0 0 0 0;
+}
+@media screen and (max-width: 450px){
+	.section-one-left{
+		padding: 0;
+	}
+	.section-one-left > h1 {
+	    padding: 16% 15% 53px 10%;
+	    font-size: 32px;
+	}
+	.section-one-right > img {
+    	display: none;
+	}
+	.section-two-right {
+    padding: 0;
+	}
+	.section-two-right > h1 {
+	    height: 100%;
+	    padding: 20% 15% 56px 10%;
+	    font-size: 29px;
+	    color: #fff;
+	}
+	.aboutme-left {
+    	padding: 5px;
+	}
+	.aboutme-right {
+    	padding: 5px;
+	}
+	.section-three{
+		padding: 5px;
+	}
+	.section {
+    padding: 56px 37px;
+}
+.socialprofile{
+	margin: 0;
+}
+.social-icons img {
+    width: 46px;
+    float: right;
+    padding: 0 10px 0 0;
+}
+.g-to {
+    margin: 60px 0 0 0;
+}
+}
